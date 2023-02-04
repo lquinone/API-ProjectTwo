@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasa API</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Bootsstrap CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<!-- Bootstrap JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronomy Picture Day</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bootsstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand m-auto" href="#">
-            <img src="assets/astronomyDay Logo.png" alt="" width="250" height="200" class="d-inline-block align-text-center">
-          </a>
-        </div>
-      </nav>
-    
-    <div class="infoContainer mt-5">
-        <div id="astronomyPic" class="row gx-5">
-        
+  <!-- Navbar -->
+  <nav class="navbar navbar-light sticky-top pt-0">
+    <div class="container-fluid shadow-sm p-3 mb-5 bg-white rounded">
+      <a class="navbar-brand m-auto" href="#">
+        <img src="assets/astronomyDay Logo.png" alt="astronomyDay logo" width="250" height="200"
+          class="d-inline-block align-text-center">
+      </a>
+    </div>
+  </nav>
+
+  <div class="MediaContainer mt-5">
+    <div id="astronomyPic" class="row">
+
+    </div>
+  </div>
+
+  <div class="butttons container">
+    <div class="row justify-content-center">
+      <div class="col-1"><img class= "img-fluid" id="prev" src="assets/leftButton.png" alt='previous button'></div>
+      <div class="col-1"><img class= "img-fluid" id="next" src="assets/rightButton.png" alt='next button'></div>
+
+    </div>
+  </div>
+
+  <div class="infoContainer pb-5">
+    <div id="picDescription">
+
+    </div>
   </div>
 
 
@@ -33,7 +54,8 @@
 
 
 
-    <!-- my own js file -->
-<script src="scripts.js"></script>
+  <!-- my own js file -->
+  <script src="script.js"></script>
 </body>
+
 </html>
