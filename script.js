@@ -1,5 +1,5 @@
 //API URL and Key
-const baseURL = 'https://api.nasa.gov/planetary/apod?api_key=uvVapquUUS1RObMLR1Ok146ju0rSM5a50r40o4Rr&start_date=2022-12-01';
+const baseURL = 'https://api.nasa.gov/planetary/apod?api_key=uvVapquUUS1RObMLR1Ok146ju0rSM5a50r40o4Rr&start_date=2023-01-01';
 
 // const baseURL = 'https://api.nasa.gov/planetary/apod?api_key=ZX7HZcHK3wF9DUsCJ68GAcCP4qoAzGBSDicNbVK3&';
 
@@ -106,7 +106,7 @@ function getPicDayInfo(picInfo) {
 // this function will fetch previous images
 function fetchPrevimg(images) {
     if (startDate.value !== '') {
-        url += '&start_date=2022-12-01' + startDate.value;
+        url += '&start_date=2023-01-01' + startDate.value;
     }
     var card = document.createElement("div");
     card.setAttribute("class", "cardBaground col-md-6");
