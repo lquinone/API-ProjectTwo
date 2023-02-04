@@ -1,0 +1,28 @@
+body {
+    background-image: url('assets/API-2_background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#prev{
+    cursor: pointer;
+}
+
+#next {
+    cursor: pointer;
+}
+
+.content div {
+     background: white;
+     margin-top: 26px;
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-right: 20px;
+     border-radius: 26px;
+     box-shadow: 2px 2px 4px gray;
+}
+
+img.media {
+    max-height: 56vh;
+
+}
