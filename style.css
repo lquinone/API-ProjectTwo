@@ -1,5 +1,5 @@
 body {
-    background-image: url('assets/API-2_background.png');
+    background-image: url('/public/assets/API-2_background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
